@@ -44,6 +44,14 @@ p{
     line-height: 1.5rem;
 }
 
+footer{
+    background-color: black;
+    margin: 20px;
+}
+footer p{
+    text-align: left;
+}
+
 @media screen and (max-width: 600px) {
     img{
         width: 200px;
