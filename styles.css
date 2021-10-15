@@ -23,19 +23,32 @@ h4{
     font-size: 1.5rem;
     margin-top: 0;
 }
-.container{
+.planet-list{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container{
+    flex-shrink: 1;
+    max-width: 450px;
+    
 }
 img{
     max-width: 400px;
+    background-color: black;
 }
 p{
     margin-top: 0;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
 }
 
 @media screen and (max-width: 600px) {
     img{
         width: 200px;
+    }
+    .container{
+        max-width: 250px;
     }
 }
